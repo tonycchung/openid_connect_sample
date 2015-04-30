@@ -16,6 +16,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'test-unit'
   gem 'turn', :require => false
 end
 
